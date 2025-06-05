@@ -1,0 +1,41 @@
+    body {
+    background-color: #fff8f0;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    color: brown;
+    text-align: center;
+}
+
+h2 {
+    color: #6b4f4f;
+}
+
+img {
+    border: 2px solid brown;
+    display: block;
+    margin: auto;
+}
+
+table {
+    background-color: #fff;
+    width: 60%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+a {
+    color: brown;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
