@@ -16,11 +16,32 @@
 // }
 // console.log("The square of 5 is: " + square(5));
 
-const square= function(x=7){
-    let ans =0
-        ans = x*x ;
-    return ans;
+// const square= function(x=7){
+//     let ans =0
+//         ans = x*x ;
+//     return ans;
 
+// }
+// console.log("The square of 5 is: " + square());
+
+
+ function hello(name, age) {
+     console.log("Hello " + name );
+    age ();
+
+ }
+
+function greetUser(){
+    console.log("age is 25");
 }
-console.log("The square of 5 is: " + square());
+hello("Alice",greetUser);
 
+// function greet(name,cb)
+// {
+//     console.log("Hello " + name);
+//     cb();
+// }
+// function greetUser() {
+//     console.log("Welcome to the JavaScript world!");
+// }
+// greet("Alice", greetUser);
