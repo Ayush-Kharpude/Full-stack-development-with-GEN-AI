@@ -45,3 +45,16 @@ hello("Alice",greetUser);
 //     console.log("Welcome to the JavaScript world!");
 // }
 // greet("Alice", greetUser);
+
+function delay(){
+    return new Promise(resolve => setTimeout(() => {
+            resolve('done waiting');
+        }, 5000));
+         }
+
+async function run() {
+ console.log('waiting...');
+ const result = await delay();
+ console.log(result);
+         }  
+         run();
